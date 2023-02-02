@@ -1,0 +1,81 @@
+  *{
+	box-sizing: border-box;
+
+}
+html{
+	margin: 0px;
+	padding: 0px;
+	height: 0;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	position: absolute;
+}
+
+ .reg{
+	margin: 10px auto;
+	height: 600px;
+	width: 900px;
+	border: 2px solid #e33e4f;
+	background-color: #ecd4c4;
+	border-radius: 20px 1px 10px 1px;
+	box-shadow: 8px -3px 10px 5px #e0e0e0;
+	position: relative;
+	top: 110px;
+	 
+ 
+}
+
+ .reg h1{
+	 
+	 text-align: center;
+	 font-size: 50px;
+	 font-weight: 900;
+	 color: darkred;
+
+}
+.rrig{
+	height: 400px;
+	width: 1000px;
+	 
+	position: relative;
+
+}
+.rrig tr td{
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 200px;
+	color: #000;
+
+}
+ .rrig tr td input{
+	height: 30px;
+	width: 200px;
+	outline: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ 
+ 
+.rrig form{
+	padding: 50px;
+	height: 400px;
+	width: 500px;
+}
+.rrig tr td button{
+	border: 0px;
+    background: linear-gradient(#900,#D50000);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px 1px 10px 1px;
+    box-shadow: 1px 1px 5px black;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 1px 1px 6px black;
+    position: static;
+} 
+.footer{
+	top: 110px;
+}
